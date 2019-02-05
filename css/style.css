@@ -17,7 +17,7 @@
 */
 
 /*===========================    1. Theme default css ===========================*/
-@import url(../../../../fonts.googleapis.com/css?family=Montserrat_500,600,700_Open+Sans_400,600.css0');
+@import url(fonts.googleapis.com/css?family=Montserrat_500,600,700_Open+Sans_400,600.css0');
  body {
     font-family: 'Open Sans', sans-serif;
     font-weight: normal;
@@ -629,7 +629,7 @@ p {
 }
 
 /*===========================    5.SERVICES css ===========================*/
-.singel_services {
+.singel_products {
     border: 1px solid #006ed9;
     border-radius: 5px;
     padding: 20px 15px;
@@ -637,27 +637,27 @@ p {
     transition: all 0.4s ease-in-out;
 }
 
-.services_icon {
+.products_icon {
     padding-bottom: 15px;
 }
 
-.services_icon img {
+.products_icon img {
     width: 80px;
 }
 
-.services_content {
+.products_content {
 }
 
-.services_content h4 {
+.products_content h4 {
     font-size: 24px;
     font-weight: 600;
     margin-bottom: 15px;
 }
 
-.services_content p {
+.products_content p {
 }
 
-.singel_services:hover {
+.singel_products:hover {
     -webkit-transform: translateY(-10px);
     transform: translateY(-10px);
     -webkit-box-shadow: 0px 5px 15px 0px rgba(0,0,0,0.35);
@@ -799,7 +799,7 @@ p {
 }
 
 /*===========================    8.PRICE TABLE css ===========================*/
-.singel_price {
+.singel_distributor {
     border: 1px solid #1e90ff;
     padding: 40px 30px;
     border-radius: 10px;
@@ -807,26 +807,26 @@ p {
     transition: all 0.4s linear;
 }
 
-.singel_price.active,.singel_price:hover {
+.singel_distributor.active,.singel_distributor:hover {
     -webkit-box-shadow: 0px 3px 30px -5px rgba(0,0,0,0.45);
     box-shadow: 0px 3px 30px -5px rgba(0,0,0,0.45);
 }
 
-.singel_price h5 {
+.singel_distributor h5 {
     font-size: 18px;
     font-weight: 700;
     text-transform: uppercase;
     margin-bottom: 15px;
 }
 
-.singel_price h2 {
+.singel_distributor h2 {
     font-size: 58px;
     font-weight: 700;
     position: relative;
     display: inline-block;
 }
 
-.singel_price h2 sup {
+.singel_distributor h2 sup {
     font-size: 20px;
     position: absolute;
     top: 20px;
@@ -834,24 +834,24 @@ p {
     color: #818284;
 }
 
-.singel_price h2 span {
+.singel_distributor h2 span {
     font-size: 18px;
     font-weight: 400;
     text-transform: uppercase;
 }
 
-.singel_price ul li {
+.singel_distributor ul li {
     font-size: 16px;
     color: #6e6e6e;
     line-height: 50px;
     border-bottom: 1px solid #dddddd;
 }
 
-.singel_price ul li:last-child {
+.singel_distributor ul li:last-child {
     border-bottom: 0;
 }
 
-.singel_price a:hover {
+.singel_distributor a:hover {
     color: #006ed9;
 }
 
